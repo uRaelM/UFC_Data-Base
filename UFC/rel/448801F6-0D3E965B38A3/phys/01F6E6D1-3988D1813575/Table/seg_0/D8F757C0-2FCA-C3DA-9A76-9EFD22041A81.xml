@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="TAB_RESULTADO" directorySegmentName="seg_0" id="D8F757C0-2FCA-C3DA-9A76-9EFD22041A81">
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<schemaObject>19D78E1E-866E-7E19-D1F2-6B0905EB9075</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>CFCFC18D-FD4E-AC9F-ECB5-6332017BBDB0</segment>
+<tableSpace>6490A0AE-BB19-5E8A-3446-D7AEA2CEE9E9</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="GOLPES_TOT_RESULTADO" id="16E77336-629F-258C-6AF3-4AB267B3017C">
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TENTATIVAS_FIN_RESULTADO" id="1A1A0148-8DEA-F5BE-D819-649A8C3C3D7E">
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_RESULTADO" id="301F3D5C-0021-92DF-5EF5-BC954A1A6A80">
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="QUEDAS_RESULTADO" id="49CAE337-5998-21D4-BB34-4030C06DEF9A">
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GOLPES_SIG_RESULTADO" id="79C25761-70A3-075D-72E7-530478F68B80">
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LUTADOR_RESULTADO" id="969FDA7A-B550-13F8-6DAA-83D235F829DB">
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ROUND_RESULTADO" id="9DAA8714-E5B7-99BD-F622-84DE2577C5CA">
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RESULTADO_RESULTADO" id="BF69E267-A579-45D4-D1FE-1D9C172DAFE9">
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OPONENTE_RESULTADO" id="C3968FAA-4BBA-036E-18E1-784D297BDEEB">
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TIPO_RESULTADO" id="D2E2D4A5-537B-12AB-D9AF-4F4DD09E1278">
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="KNOCKDOWNS_RESULTADO" id="E3D1518F-E8FE-2FE2-822A-8F1EB80F8AC2">
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TEMPO_RESULTADO" id="EF695B59-2D50-E676-8D10-7B019A2411B2">
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="IDX_RESULTADO" id="D41A4753-5566-DF84-A3BD-1FCEF30B2E0C">
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<schemaObject>19D78E1E-866E-7E19-D1F2-6B0905EB9075</schemaObject>
+<segment>D7E4BD87-1B70-0371-C7CF-CF514BB530E6</segment>
+<tableSpace>6490A0AE-BB19-5E8A-3446-D7AEA2CEE9E9</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_OPONENTE_LUTADOR_RESULTADO" id="8B99A703-56EE-D143-0A8E-162047025869">
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:21 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_LUTADOR_RESULTADO" id="9C271D4D-7953-5B53-B10D-BF7BB3A95922">
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:21 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_LUTA_RESULTADO" id="EE67BDEE-4128-9254-CE57-5AA3188D89DC">
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:21 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_RESULTADO" id="1B844929-FC7E-C9EF-5A0D-C3ACC926408E">
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<segment>D7E4BD87-1B70-0371-C7CF-CF514BB530E6</segment>
+<tableSpace>6490A0AE-BB19-5E8A-3446-D7AEA2CEE9E9</tableSpace>
+<existingIndex>D41A4753-5566-DF84-A3BD-1FCEF30B2E0C</existingIndex>
+<indexSegment>D7E4BD87-1B70-0371-C7CF-CF514BB530E6</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="190C1AF8-88DA-AC7B-7B2D-024480D4CB2D" containerWithKeyObject="021C2FE4-35BA-1B23-89F4-6394B414AB18" localFKIndex="9C2B87DF-E22A-9312-65A3-B36DFF00DDE1" name="FK_ESTADIO_EVENTO">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>UFC_BD</sourceObjSchema>
+<sourceObjName>FK_ESTADIO_EVENTO</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:21 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<referredTableLongName>UFC_BD.TAB_ESTADIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F26C5201-52F3-8459-6CE6-A9BBD84543D0</referredTableID>
+<keyObject>5206E06B-5DF2-4F13-2A51-DBCE38D0530B</keyObject>
+<referredKeyID>5206E06B-5DF2-4F13-2A51-DBCE38D0530B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_ESTADIO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<RoleOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.RoleOraclev10g" name="RO_CONTRATANTE" directorySegmentName="seg_0" id="A024E509-44ED-D515-6F14-4C6CDD877CD5">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjName>RO_CONTRATANTE</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<roles>9A4B0939-989E-0C30-B5C1-3E27BC2209CA</roles>
+</RoleOraclev10g>

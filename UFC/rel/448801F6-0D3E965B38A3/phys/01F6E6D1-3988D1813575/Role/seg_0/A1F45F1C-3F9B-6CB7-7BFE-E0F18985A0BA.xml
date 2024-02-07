@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<RoleOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.RoleOraclev10g" name="RO_CRUD_LOCUTOR" directorySegmentName="seg_0" id="A1F45F1C-3F9B-6CB7-7BFE-E0F18985A0BA">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjName>RO_CRUD_LOCUTOR</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<permissions>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions11" id="BB8AAACF-D0EF-14CF-D92B-5371FD2BC2F7">
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:21 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<privileges>DELETE, INSERT, SELECT, UPDATE</privileges>
+<table>340FEECF-AC8E-E472-77D3-526DAA0260BB</table>
+</Permission>
+</permissions>
+</RoleOraclev10g>

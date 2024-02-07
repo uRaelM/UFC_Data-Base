@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FEEF8B2D-920D-98AD-82D8-74B186DE3BA6" containerWithKeyObject="021C2FE4-35BA-1B23-89F4-6394B414AB18" localFKIndex="738CC2D6-BC4E-E2F5-0AF6-E55A98807B9B" name="FK_PATROCINADOR_EVENTO">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>UFC_BD</sourceObjSchema>
+<sourceObjName>FK_PATROCINADOR_EVENTO</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:21 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<referredTableLongName>UFC_BD.TAB_PATROCINADOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5CBEC079-F977-6CB4-DD8A-F92C7369E22D</referredTableID>
+<keyObject>0DD03DF5-194B-9D18-81F9-B9BD4395B50A</keyObject>
+<referredKeyID>0DD03DF5-194B-9D18-81F9-B9BD4395B50A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_PATROCINADOR</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

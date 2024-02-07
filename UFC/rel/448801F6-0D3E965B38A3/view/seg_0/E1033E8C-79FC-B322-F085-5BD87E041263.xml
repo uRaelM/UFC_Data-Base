@@ -1,0 +1,267 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="E1033E8C-79FC-B322-F085-5BD87E041263" schemaObject="19D78E1E-866E-7E19-D1F2-6B0905EB9075" name="V_EVENTO">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>UFC_BD</sourceObjSchema>
+<sourceObjName>V_EVENTO</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[CREATE OR REPLACE VIEW V_EVENTO
+AS 
+SELECT
+    tab_evento.nome_evento,
+    tab_evento.data_evento,
+    tab_luta.lutador1_luta,
+    tab_luta.lutador2_luta,
+    tab_luta.categoria_luta,
+    tab_resultado.lutador_resultado,
+    tab_resultado.resultado_resultado,
+    tab_resultado.tipo_resultado,
+    tab_resultado.round_resultado,
+    tab_resultado.tempo_resultado
+FROM
+         tab_evento
+    INNER JOIN tab_luta ON tab_evento.id_evento = tab_luta.num_evento_luta
+    INNER JOIN tab_resultado ON tab_luta.id_luta = tab_resultado.id_resultado]]></userDefinedSQL>
+<parsed>true</parsed>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="NOME_EVENTO" id="C621AF12-1758-EECE-1582-A18269B3F7BC">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>V_EVENTO</sourceObjSchema>
+<sourceObjName>NOME_EVENTO</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>NOME_EVENTO</alias>
+<dataType>VARCHAR2 (100 BYTE)</dataType>
+<headerAlias>NOME_EVENTO</headerAlias>
+<reference>false</reference>
+<referencedColumn>BF0AC033-D09B-3F83-5F49-7334605432FD</referencedColumn>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="DATA_EVENTO" id="D3BA61BE-CBCD-E119-3CBE-733EEA488D1F">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>V_EVENTO</sourceObjSchema>
+<sourceObjName>DATA_EVENTO</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>DATA_EVENTO</alias>
+<dataType>DATE</dataType>
+<headerAlias>DATA_EVENTO</headerAlias>
+<reference>false</reference>
+<referencedColumn>72098714-66BD-16F3-A1E3-2BF53E01402C</referencedColumn>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="LUTADOR1_LUTA" id="A856801F-FE59-4177-2BA7-89FFC342BC5E">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>V_EVENTO</sourceObjSchema>
+<sourceObjName>LUTADOR1_LUTA</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>LUTADOR1_LUTA</alias>
+<dataType>NUMBER (10)</dataType>
+<headerAlias>LUTADOR1_LUTA</headerAlias>
+<reference>false</reference>
+<referencedColumn>9B433500-C0B4-F0BD-D2FC-DB0604807032</referencedColumn>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="LUTADOR2_LUTA" id="28BE0EC0-6BC0-CC65-C1E2-7A365B46440F">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>V_EVENTO</sourceObjSchema>
+<sourceObjName>LUTADOR2_LUTA</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>LUTADOR2_LUTA</alias>
+<dataType>NUMBER (10)</dataType>
+<headerAlias>LUTADOR2_LUTA</headerAlias>
+<reference>false</reference>
+<referencedColumn>9A7C2420-7038-4C1E-AB8F-E12B3EFAAEA3</referencedColumn>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="CATEGORIA_LUTA" id="D5A781F6-EDF8-7CFA-CC62-54F9FDDEC5A2">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>V_EVENTO</sourceObjSchema>
+<sourceObjName>CATEGORIA_LUTA</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>CATEGORIA_LUTA</alias>
+<dataType>VARCHAR2 (20 BYTE)</dataType>
+<headerAlias>CATEGORIA_LUTA</headerAlias>
+<reference>false</reference>
+<referencedColumn>65F0F331-C930-08D4-36D3-92972543ADE1</referencedColumn>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="LUTADOR_RESULTADO" id="F25C8676-F306-CF8E-C0BC-992200571B6F">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>V_EVENTO</sourceObjSchema>
+<sourceObjName>LUTADOR_RESULTADO</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>LUTADOR_RESULTADO</alias>
+<dataType>NUMBER (10)</dataType>
+<headerAlias>LUTADOR_RESULTADO</headerAlias>
+<reference>false</reference>
+<referencedColumn>969FDA7A-B550-13F8-6DAA-83D235F829DB</referencedColumn>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="RESULTADO_RESULTADO" id="445AFE24-CDEA-B13D-D03A-2BA082176E08">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>V_EVENTO</sourceObjSchema>
+<sourceObjName>RESULTADO_RESULTADO</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>RESULTADO_RESULTADO</alias>
+<dataType>VARCHAR2 (50 BYTE)</dataType>
+<headerAlias>RESULTADO_RESULTADO</headerAlias>
+<reference>false</reference>
+<referencedColumn>BF69E267-A579-45D4-D1FE-1D9C172DAFE9</referencedColumn>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="TIPO_RESULTADO" id="638A9D02-93F1-D2A4-C190-1B78222268D9">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>V_EVENTO</sourceObjSchema>
+<sourceObjName>TIPO_RESULTADO</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>TIPO_RESULTADO</alias>
+<dataType>VARCHAR2 (5 BYTE)</dataType>
+<headerAlias>TIPO_RESULTADO</headerAlias>
+<reference>false</reference>
+<referencedColumn>D2E2D4A5-537B-12AB-D9AF-4F4DD09E1278</referencedColumn>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="ROUND_RESULTADO" id="915FD581-C6B1-FD97-B9BB-BAD498DB8130">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>V_EVENTO</sourceObjSchema>
+<sourceObjName>ROUND_RESULTADO</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>ROUND_RESULTADO</alias>
+<dataType>NUMBER (1)</dataType>
+<headerAlias>ROUND_RESULTADO</headerAlias>
+<reference>false</reference>
+<referencedColumn>9DAA8714-E5B7-99BD-F622-84DE2577C5CA</referencedColumn>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="TEMPO_RESULTADO" id="48F4B077-AF1B-E945-309C-1971245D9B11">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>V_EVENTO</sourceObjSchema>
+<sourceObjName>TEMPO_RESULTADO</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>TEMPO_RESULTADO</alias>
+<dataType>NUMBER (3)</dataType>
+<headerAlias>TEMPO_RESULTADO</headerAlias>
+<reference>false</reference>
+<referencedColumn>EF695B59-2D50-E676-8D10-7B019A2411B2</referencedColumn>
+</viewElement>
+</viewElements>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="021C2FE4-35BA-1B23-89F4-6394B414AB18">
+<container>true</container>
+<schema>UFC_BD</schema>
+<tableName>TAB_EVENTO</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="F140191D-39E9-8C59-FE88-B972A6F4A19E">
+<container>true</container>
+<schema>UFC_BD</schema>
+<tableName>TAB_LUTA</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="D8F757C0-2FCA-C3DA-9A76-9EFD22041A81">
+<container>true</container>
+<schema>UFC_BD</schema>
+<tableName>TAB_RESULTADO</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="BF0AC033-D09B-3F83-5F49-7334605432FD">
+<columnName>NOME_EVENTO</columnName>
+<schema>UFC_BD</schema>
+<tableName>TAB_EVENTO</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="72098714-66BD-16F3-A1E3-2BF53E01402C">
+<columnName>DATA_EVENTO</columnName>
+<schema>UFC_BD</schema>
+<tableName>TAB_EVENTO</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="9B433500-C0B4-F0BD-D2FC-DB0604807032">
+<columnName>LUTADOR1_LUTA</columnName>
+<schema>UFC_BD</schema>
+<tableName>TAB_LUTA</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="9A7C2420-7038-4C1E-AB8F-E12B3EFAAEA3">
+<columnName>LUTADOR2_LUTA</columnName>
+<schema>UFC_BD</schema>
+<tableName>TAB_LUTA</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="65F0F331-C930-08D4-36D3-92972543ADE1">
+<columnName>CATEGORIA_LUTA</columnName>
+<schema>UFC_BD</schema>
+<tableName>TAB_LUTA</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="969FDA7A-B550-13F8-6DAA-83D235F829DB">
+<columnName>LUTADOR_RESULTADO</columnName>
+<schema>UFC_BD</schema>
+<tableName>TAB_RESULTADO</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="BF69E267-A579-45D4-D1FE-1D9C172DAFE9">
+<columnName>RESULTADO_RESULTADO</columnName>
+<schema>UFC_BD</schema>
+<tableName>TAB_RESULTADO</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="D2E2D4A5-537B-12AB-D9AF-4F4DD09E1278">
+<columnName>TIPO_RESULTADO</columnName>
+<schema>UFC_BD</schema>
+<tableName>TAB_RESULTADO</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="9DAA8714-E5B7-99BD-F622-84DE2577C5CA">
+<columnName>ROUND_RESULTADO</columnName>
+<schema>UFC_BD</schema>
+<tableName>TAB_RESULTADO</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="EF695B59-2D50-E676-8D10-7B019A2411B2">
+<columnName>TEMPO_RESULTADO</columnName>
+<schema>UFC_BD</schema>
+<tableName>TAB_RESULTADO</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="301F3D5C-0021-92DF-5EF5-BC954A1A6A80">
+<columnName>ID_RESULTADO</columnName>
+<schema>UFC_BD</schema>
+<tableName>TAB_RESULTADO</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="E5D818A5-065E-5331-35AA-41D8AC59EF74">
+<columnName>ID_EVENTO</columnName>
+<schema>UFC_BD</schema>
+<tableName>TAB_EVENTO</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="DDB162EB-8C76-F453-5ABA-14708EADEACC">
+<columnName>ID_LUTA</columnName>
+<schema>UFC_BD</schema>
+<tableName>TAB_LUTA</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="E560CD65-B5B9-AB57-16CA-A264EA256F03">
+<columnName>NUM_EVENTO_LUTA</columnName>
+<schema>UFC_BD</schema>
+<tableName>TAB_LUTA</tableName>
+</UsedObject>
+</usedObjects>
+</TableView>

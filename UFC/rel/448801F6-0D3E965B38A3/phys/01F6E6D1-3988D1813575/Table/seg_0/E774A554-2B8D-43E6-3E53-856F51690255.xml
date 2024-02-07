@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="TAB_LUTADOR" directorySegmentName="seg_0" id="E774A554-2B8D-43E6-3E53-856F51690255">
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<schemaObject>19D78E1E-866E-7E19-D1F2-6B0905EB9075</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>CFCFC18D-FD4E-AC9F-ECB5-6332017BBDB0</segment>
+<tableSpace>6490A0AE-BB19-5E8A-3446-D7AEA2CEE9E9</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="SEXO_LUTADOR" id="35888BB4-50D3-3911-4D19-300CABA09BA8">
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TIME_LUTADOR" id="3C484FFD-54A0-85AD-38DE-06F7FE8A7851">
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="APELIDO_LUTADOR" id="3CF07974-86C1-9E11-E05B-68D4E0BBD6E4">
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NUM_DERROTAS_LUTADOR" id="4D8F5856-345F-8493-66B8-11689C61AB16">
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ALTURA_LUTADOR" id="4E36084E-44F1-D9A3-DD71-AA5BBB073C0C">
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CATEGORIA_LUTADOR" id="4FED9B37-937C-BEB7-DFE8-DF528ED267FF">
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DTA_NASCIMENTO_LUTADOR" id="651813CA-7EE8-E5F1-B365-3458157B13AA">
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ENVERGADURA_LUTADOR" id="792D4359-9865-635E-51AB-71FD39DF19DC">
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ESTILO_LUTADOR" id="A721A779-B3B3-B13A-BA37-8FB1265C37E2">
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RANK_LUTADOR" id="AC5247F4-1213-2A88-EEC4-A2B104D86266">
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOME_LUTADOR" id="C3C0CBEF-6B86-6953-9A9E-5CD326E6EECF">
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NUM_VITORIAS_LUTADOR" id="CCCF6673-7917-35D4-09E9-3C09909352C6">
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PAIS_NACIONALIDADE" id="DDC2C75E-8474-DF10-AFA6-032C47F192F4">
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_LUTADOR" id="F88F8866-EC41-F45E-7A20-F081FB42E0B2">
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_LUTADOR" id="156672D7-AD2A-D082-83AF-FDDEB05CD9BF">
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<schemaObject>19D78E1E-866E-7E19-D1F2-6B0905EB9075</schemaObject>
+<segment>D7E4BD87-1B70-0371-C7CF-CF514BB530E6</segment>
+<tableSpace>6490A0AE-BB19-5E8A-3446-D7AEA2CEE9E9</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_LUTADOR" id="EEA26263-0AAC-4F20-6A42-C561F18337B2">
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<segment>D7E4BD87-1B70-0371-C7CF-CF514BB530E6</segment>
+<tableSpace>6490A0AE-BB19-5E8A-3446-D7AEA2CEE9E9</tableSpace>
+<existingIndex>156672D7-AD2A-D082-83AF-FDDEB05CD9BF</existingIndex>
+<indexSegment>D7E4BD87-1B70-0371-C7CF-CF514BB530E6</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

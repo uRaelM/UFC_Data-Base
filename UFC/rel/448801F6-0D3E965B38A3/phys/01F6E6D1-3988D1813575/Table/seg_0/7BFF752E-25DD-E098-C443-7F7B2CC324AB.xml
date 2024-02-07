@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="TAB_LUTA_JUIZ" directorySegmentName="seg_0" id="7BFF752E-25DD-E098-C443-7F7B2CC324AB">
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<schemaObject>19D78E1E-866E-7E19-D1F2-6B0905EB9075</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>CFCFC18D-FD4E-AC9F-ECB5-6332017BBDB0</segment>
+<tableSpace>6490A0AE-BB19-5E8A-3446-D7AEA2CEE9E9</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NUM_JUIZ" id="007BF783-61E2-BACE-677E-E8174544D35B">
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_LUTA" id="C63D5518-2495-52B0-F2F0-6512C5594B1F">
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="IDX_LUTA_JUIZ" id="155C871D-189C-3CD0-E59C-BD343BCCBAC9">
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<schemaObject>19D78E1E-866E-7E19-D1F2-6B0905EB9075</schemaObject>
+<segment>D7E4BD87-1B70-0371-C7CF-CF514BB530E6</segment>
+<tableSpace>6490A0AE-BB19-5E8A-3446-D7AEA2CEE9E9</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_LUTA_LUTA_JUIZ" id="42B65E5E-FFB6-37F0-0F5E-A5D802FF02A6">
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:21 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_JUIZ_LUTA_JUIZ" id="8086727F-4859-378B-6ACE-1E7F75981044">
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:33:25 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_LUTA_JUIZ" id="5EFEF7B1-3C5E-A3AF-198E-2F85F62E62C0">
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<segment>D7E4BD87-1B70-0371-C7CF-CF514BB530E6</segment>
+<tableSpace>6490A0AE-BB19-5E8A-3446-D7AEA2CEE9E9</tableSpace>
+<existingIndex>155C871D-189C-3CD0-E59C-BD343BCCBAC9</existingIndex>
+<indexSegment>D7E4BD87-1B70-0371-C7CF-CF514BB530E6</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

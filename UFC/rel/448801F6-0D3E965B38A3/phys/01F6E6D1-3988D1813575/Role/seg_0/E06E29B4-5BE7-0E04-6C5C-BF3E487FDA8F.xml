@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<RoleOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.RoleOraclev10g" name="RO_ORGANIZADOR_EVENTO" directorySegmentName="seg_0" id="E06E29B4-5BE7-0E04-6C5C-BF3E487FDA8F">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjName>RO_ORGANIZADOR_EVENTO</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<roles>CE4B096D-4CDE-BFF1-05A1-B9EFC9D97BEB, 57B6BC9C-BE34-40C7-7CEE-2F5F74B21E5A, 42CEAEC0-7F49-3A2F-0FA5-069E20EFDB66, A3EB7353-AB2C-14AA-11DA-F10331D6407F, A1F45F1C-3F9B-6CB7-7BFE-E0F18985A0BA, A9D0157C-47D9-98CD-505B-E36BA7BF3552, 8763E6AC-585B-E9A6-198C-64BAC2DB75B4, DB39F467-D641-621A-A131-EF4590FB50B9</roles>
+</RoleOraclev10g>

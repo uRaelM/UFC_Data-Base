@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4EBD37F0-F6CD-1E0C-E36B-85429C085B37" containerWithKeyObject="0A847C0F-4536-D158-5F07-E5937E807E81" localFKIndex="52B05979-0823-51A8-7CC0-0D1858B2E9E4" name="FK_NARRADOR_LUTA_LOCUTOR">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>UFC_BD</sourceObjSchema>
+<sourceObjName>FK_NARRADOR_LUTA_LOCUTOR</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:21 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<referredTableLongName>UFC_BD.TAB_LOCUTOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>340FEECF-AC8E-E472-77D3-526DAA0260BB</referredTableID>
+<keyObject>B3B0A85D-DDE4-1BE3-BFF9-758B7C9BACC9</keyObject>
+<referredKeyID>B3B0A85D-DDE4-1BE3-BFF9-758B7C9BACC9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_LOCUTOR</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

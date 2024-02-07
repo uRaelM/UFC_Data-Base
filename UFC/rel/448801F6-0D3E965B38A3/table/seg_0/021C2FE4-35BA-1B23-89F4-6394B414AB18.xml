@@ -1,0 +1,197 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="021C2FE4-35BA-1B23-89F4-6394B414AB18" schemaObject="19D78E1E-866E-7E19-D1F2-6B0905EB9075" name="TAB_EVENTO">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>UFC_BD</sourceObjSchema>
+<sourceObjName>TAB_EVENTO</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_EVENTO" id="E5D818A5-065E-5331-35AA-41D8AC59EF74">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>TAB_EVENTO</sourceObjSchema>
+<sourceObjName>ID_EVENTO</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementMaxValue>9999999999999999999999999999</autoIncrementMaxValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>seq_evento</autoIncrementSequenceName>
+<autoIncrementTriggerName>trg_seq_evento</autoIncrementTriggerName>
+</Column>
+<Column name="NOME_EVENTO" id="BF0AC033-D09B-3F83-5F49-7334605432FD">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>TAB_EVENTO</sourceObjSchema>
+<sourceObjName>NOME_EVENTO</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_EVENTO" id="72098714-66BD-16F3-A1E3-2BF53E01402C">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>TAB_EVENTO</sourceObjSchema>
+<sourceObjName>DATA_EVENTO</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CIDADE_ESTADO_EVENTO" id="C63F711D-DBDA-EFD4-1FDB-566488DE05A2">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>TAB_EVENTO</sourceObjSchema>
+<sourceObjName>CIDADE_ESTADO_EVENTO</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUM_ESTADIO" id="1E8A7A8C-35C5-7547-49C7-B55837C4272D">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>TAB_EVENTO</sourceObjSchema>
+<sourceObjName>NUM_ESTADIO</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="190C1AF8-88DA-AC7B-7B2D-024480D4CB2D" referredColumn="FAD2C24C-E265-94D0-EFC1-420834254EB9"/>
+</associations>
+</Column>
+<Column name="NUM_PATROCINADOR" id="462E980E-1017-8D94-7FCA-B60A61286F98">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>TAB_EVENTO</sourceObjSchema>
+<sourceObjName>NUM_PATROCINADOR</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FEEF8B2D-920D-98AD-82D8-74B186DE3BA6" referredColumn="8722485F-4B6B-AD31-2F4F-7229615A1BA5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A6A7FB82-BAAC-9766-A269-27BE59A73E4F" name="PK_EVENTO">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>UFC_BD</sourceObjSchema>
+<sourceObjName>PK_EVENTO</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5D818A5-065E-5331-35AA-41D8AC59EF74"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="73BC0866-5337-6801-C191-26916A6AC95F" name="UN_NOME_EVENTO">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>UFC_BD</sourceObjSchema>
+<sourceObjName>UN_NOME_EVENTO</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF0AC033-D09B-3F83-5F49-7334605432FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F9450F3F-3C73-61BB-365E-6D3D3ED244DA" schemaObject="19D78E1E-866E-7E19-D1F2-6B0905EB9075" name="IDX_EVENTO">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>UFC_BD</sourceObjSchema>
+<sourceObjName>IDX_EVENTO</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E8A7A8C-35C5-7547-49C7-B55837C4272D"/>
+<colUsage columnID="462E980E-1017-8D94-7FCA-B60A61286F98"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B773E350-0041-A94A-2B7C-F75AB8138E5B" schemaObject="19D78E1E-866E-7E19-D1F2-6B0905EB9075" name="PK_EVENTO">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>UFC_BD</sourceObjSchema>
+<sourceObjName>PK_EVENTO</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5D818A5-065E-5331-35AA-41D8AC59EF74"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4A4047C6-96AC-8BBF-F85E-461C120AA801" schemaObject="19D78E1E-866E-7E19-D1F2-6B0905EB9075" name="UN_NOME_EVENTO">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>UFC_BD</sourceObjSchema>
+<sourceObjName>UN_NOME_EVENTO</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF0AC033-D09B-3F83-5F49-7334605432FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9C2B87DF-E22A-9312-65A3-B36DFF00DDE1" name="FK_ESTADIO_EVENTO">
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:21 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E8A7A8C-35C5-7547-49C7-B55837C4272D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="738CC2D6-BC4E-E2F5-0AF6-E55A98807B9B" name="FK_PATROCINADOR_EVENTO">
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:21 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="462E980E-1017-8D94-7FCA-B60A61286F98"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

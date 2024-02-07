@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<RoleOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.RoleOraclev10g" name="RO_USUARIO" directorySegmentName="seg_0" id="CFF70ECC-AC54-B887-B570-B49EBF0F0A4B">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjName>RO_USUARIO</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<roles>6ED41934-C963-A6BC-15D7-B71EE666CBF3, C4B84C71-67AE-8200-75D5-34DF744691F7, 8EF37874-7008-EAF3-77B2-39DA5C906643, 66F8BE3F-ABE1-1B78-D72C-150B4D0BFED4</roles>
+</RoleOraclev10g>

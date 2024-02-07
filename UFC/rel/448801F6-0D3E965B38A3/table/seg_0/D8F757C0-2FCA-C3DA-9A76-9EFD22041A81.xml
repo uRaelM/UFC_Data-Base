@@ -1,0 +1,311 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D8F757C0-2FCA-C3DA-9A76-9EFD22041A81" schemaObject="19D78E1E-866E-7E19-D1F2-6B0905EB9075" name="TAB_RESULTADO">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>UFC_BD</sourceObjSchema>
+<sourceObjName>TAB_RESULTADO</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_RESULTADO" id="301F3D5C-0021-92DF-5EF5-BC954A1A6A80">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>TAB_RESULTADO</sourceObjSchema>
+<sourceObjName>ID_RESULTADO</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementMaxValue>9999999999999999999999999999</autoIncrementMaxValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>seq_resultado</autoIncrementSequenceName>
+<autoIncrementTriggerName>trg_seq_resultado</autoIncrementTriggerName>
+<associations>
+<colAssociation fkAssociation="7EA37DD2-3848-F864-2C4B-BDD76E7A07D2" referredColumn="DDB162EB-8C76-F453-5ABA-14708EADEACC"/>
+</associations>
+</Column>
+<Column name="LUTADOR_RESULTADO" id="969FDA7A-B550-13F8-6DAA-83D235F829DB">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>TAB_RESULTADO</sourceObjSchema>
+<sourceObjName>LUTADOR_RESULTADO</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B93DBE46-177A-CC67-FB2A-13BD4249883D" referredColumn="F88F8866-EC41-F45E-7A20-F081FB42E0B2"/>
+</associations>
+</Column>
+<Column name="OPONENTE_RESULTADO" id="C3968FAA-4BBA-036E-18E1-784D297BDEEB">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>TAB_RESULTADO</sourceObjSchema>
+<sourceObjName>OPONENTE_RESULTADO</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FD38AC09-1172-DAAD-A843-14DC1B4C7F92" referredColumn="F88F8866-EC41-F45E-7A20-F081FB42E0B2"/>
+</associations>
+</Column>
+<Column name="RESULTADO_RESULTADO" id="BF69E267-A579-45D4-D1FE-1D9C172DAFE9">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>TAB_RESULTADO</sourceObjSchema>
+<sourceObjName>RESULTADO_RESULTADO</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<constraintName>SYS_C008473</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;DERROTA&apos;" description=""/>
+<valueDef value="&apos;DESQUALIFICAÇÃO&apos;" description=""/>
+<valueDef value="&apos;EMPATE&apos;" description=""/>
+<valueDef value="&apos;VITÓRIA&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_RESULTADO" id="D2E2D4A5-537B-12AB-D9AF-4F4DD09E1278">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>TAB_RESULTADO</sourceObjSchema>
+<sourceObjName>TIPO_RESULTADO</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<constraintName>SYS_C008474</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;DEC D&apos;" description=""/>
+<valueDef value="&apos;DEC M&apos;" description=""/>
+<valueDef value="&apos;DEC U&apos;" description=""/>
+<valueDef value="&apos;DQ&apos;" description=""/>
+<valueDef value="&apos;KO&apos;" description=""/>
+<valueDef value="&apos;SUB&apos;" description=""/>
+<valueDef value="&apos;TKO&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ROUND_RESULTADO" id="9DAA8714-E5B7-99BD-F622-84DE2577C5CA">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>TAB_RESULTADO</sourceObjSchema>
+<sourceObjName>ROUND_RESULTADO</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<constraintName>SYS_C008475</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>5</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="TEMPO_RESULTADO" id="EF695B59-2D50-E676-8D10-7B019A2411B2">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>TAB_RESULTADO</sourceObjSchema>
+<sourceObjName>TEMPO_RESULTADO</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<constraintName>SYS_C008476</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>59</endValue>
+</rangeDef>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>100</beginValue>
+<endValue>159</endValue>
+</rangeDef>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>200</beginValue>
+<endValue>259</endValue>
+</rangeDef>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>300</beginValue>
+<endValue>359</endValue>
+</rangeDef>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>400</beginValue>
+<endValue>500</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="GOLPES_TOT_RESULTADO" id="16E77336-629F-258C-6AF3-4AB267B3017C">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>TAB_RESULTADO</sourceObjSchema>
+<sourceObjName>GOLPES_TOT_RESULTADO</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GOLPES_SIG_RESULTADO" id="79C25761-70A3-075D-72E7-530478F68B80">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>TAB_RESULTADO</sourceObjSchema>
+<sourceObjName>GOLPES_SIG_RESULTADO</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TENTATIVAS_FIN_RESULTADO" id="1A1A0148-8DEA-F5BE-D819-649A8C3C3D7E">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>TAB_RESULTADO</sourceObjSchema>
+<sourceObjName>TENTATIVAS_FIN_RESULTADO</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QUEDAS_RESULTADO" id="49CAE337-5998-21D4-BB34-4030C06DEF9A">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>TAB_RESULTADO</sourceObjSchema>
+<sourceObjName>QUEDAS_RESULTADO</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KNOCKDOWNS_RESULTADO" id="E3D1518F-E8FE-2FE2-822A-8F1EB80F8AC2">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>TAB_RESULTADO</sourceObjSchema>
+<sourceObjName>KNOCKDOWNS_RESULTADO</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1B844929-FC7E-C9EF-5A0D-C3ACC926408E" name="PK_RESULTADO">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>UFC_BD</sourceObjSchema>
+<sourceObjName>PK_RESULTADO</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="301F3D5C-0021-92DF-5EF5-BC954A1A6A80"/>
+<colUsage columnID="969FDA7A-B550-13F8-6DAA-83D235F829DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D41A4753-5566-DF84-A3BD-1FCEF30B2E0C" schemaObject="19D78E1E-866E-7E19-D1F2-6B0905EB9075" name="IDX_RESULTADO">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>UFC_BD</sourceObjSchema>
+<sourceObjName>IDX_RESULTADO</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="301F3D5C-0021-92DF-5EF5-BC954A1A6A80"/>
+<colUsage columnID="969FDA7A-B550-13F8-6DAA-83D235F829DB"/>
+<colUsage columnID="C3968FAA-4BBA-036E-18E1-784D297BDEEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9C271D4D-7953-5B53-B10D-BF7BB3A95922" name="FK_LUTADOR_RESULTADO">
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:21 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="969FDA7A-B550-13F8-6DAA-83D235F829DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EE67BDEE-4128-9254-CE57-5AA3188D89DC" name="FK_LUTA_RESULTADO">
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:21 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="301F3D5C-0021-92DF-5EF5-BC954A1A6A80"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8B99A703-56EE-D143-0A8E-162047025869" name="FK_OPONENTE_LUTADOR_RESULTADO">
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:21 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3968FAA-4BBA-036E-18E1-784D297BDEEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

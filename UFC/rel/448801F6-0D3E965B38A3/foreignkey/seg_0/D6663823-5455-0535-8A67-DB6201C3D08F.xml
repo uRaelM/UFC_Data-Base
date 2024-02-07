@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D6663823-5455-0535-8A67-DB6201C3D08F" containerWithKeyObject="7BFF752E-25DD-E098-C443-7F7B2CC324AB" localFKIndex="8086727F-4859-378B-6ACE-1E7F75981044" name="FK_JUIZ_LUTA_JUIZ">
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:33:25 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<referredTableLongName>UFC_BD.TAB_JUIZ</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EB286110-6082-6CF6-ECA8-6A391649E75C</referredTableID>
+<keyObject>CE06B719-1B84-0DA5-DEE6-3C9E3C6D96D1</keyObject>
+<referredKeyID>CE06B719-1B84-0DA5-DEE6-3C9E3C6D96D1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_JUIZ</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

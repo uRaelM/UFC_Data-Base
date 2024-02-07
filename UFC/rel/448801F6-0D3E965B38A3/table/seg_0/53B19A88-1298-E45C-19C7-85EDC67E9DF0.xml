@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="53B19A88-1298-E45C-19C7-85EDC67E9DF0" schemaObject="19D78E1E-866E-7E19-D1F2-6B0905EB9075" name="TAB_VENDAS_EVENTO">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>UFC_BD</sourceObjSchema>
+<sourceObjName>TAB_VENDAS_EVENTO</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_VENDAS_EVENTO" id="93E9DA7B-869F-3CC6-877E-A44ABE524567">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>TAB_VENDAS_EVENTO</sourceObjSchema>
+<sourceObjName>ID_VENDAS_EVENTO</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4AB089AC-6F7B-42E0-498A-3B7F3786D377" referredColumn="E5D818A5-065E-5331-35AA-41D8AC59EF74"/>
+</associations>
+</Column>
+<Column name="NUM_PPV_VENDAS" id="45C170DB-3B9B-5B7D-0BDC-A7A4FB41A4E9">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>TAB_VENDAS_EVENTO</sourceObjSchema>
+<sourceObjName>NUM_PPV_VENDAS</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUM_ASSENTOS_VENDAS" id="483C74EB-8AC2-98A2-46AD-F1D7C2603422">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>TAB_VENDAS_EVENTO</sourceObjSchema>
+<sourceObjName>NUM_ASSENTOS_VENDAS</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="646F02B2-5637-1C0A-1AE7-9DB81558C01D" name="PK_VENDAS_EVENTO">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>UFC_BD</sourceObjSchema>
+<sourceObjName>PK_VENDAS_EVENTO</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93E9DA7B-869F-3CC6-877E-A44ABE524567"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A492E32-5CEB-FAB6-2AA0-43A9922A3A5B" schemaObject="19D78E1E-866E-7E19-D1F2-6B0905EB9075" name="IDX_VENDAS_EVENTO">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>UFC_BD</sourceObjSchema>
+<sourceObjName>IDX_VENDAS_EVENTO</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93E9DA7B-869F-3CC6-877E-A44ABE524567"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B4D84D6C-E407-20B3-5CCF-6510DACF1545" name="FK_EVENTO_VENDAS_EVENTO">
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:21 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93E9DA7B-869F-3CC6-877E-A44ABE524567"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F26C5201-52F3-8459-6CE6-A9BBD84543D0" schemaObject="19D78E1E-866E-7E19-D1F2-6B0905EB9075" name="TAB_ESTADIO">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>UFC_BD</sourceObjSchema>
+<sourceObjName>TAB_ESTADIO</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ESTADIO" id="FAD2C24C-E265-94D0-EFC1-420834254EB9">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>TAB_ESTADIO</sourceObjSchema>
+<sourceObjName>ID_ESTADIO</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementMaxValue>9999999999999999999999999999</autoIncrementMaxValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>seq_estadio</autoIncrementSequenceName>
+<autoIncrementTriggerName>trg_seq_estadio</autoIncrementTriggerName>
+</Column>
+<Column name="NOME_ESTADIO" id="EE4B343A-25E9-4EF5-22BC-2BF6AA6919D6">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>TAB_ESTADIO</sourceObjSchema>
+<sourceObjName>NOME_ESTADIO</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENDERECO_ESTADIO" id="256D5757-45EC-2AAA-6DBA-924B14C15D82">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>TAB_ESTADIO</sourceObjSchema>
+<sourceObjName>ENDERECO_ESTADIO</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QNT_MAXIMA_PESSOAS_ESTADIO" id="CFE98A82-4011-15BA-AD7C-9D8C440310CA">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>TAB_ESTADIO</sourceObjSchema>
+<sourceObjName>QNT_MAXIMA_PESSOAS_ESTADIO</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5206E06B-5DF2-4F13-2A51-DBCE38D0530B" name="PK_ESTADIO">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>UFC_BD</sourceObjSchema>
+<sourceObjName>PK_ESTADIO</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FAD2C24C-E265-94D0-EFC1-420834254EB9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A5351410-1811-461D-F334-04B2C19D7B42" schemaObject="19D78E1E-866E-7E19-D1F2-6B0905EB9075" name="PK_ESTADIO">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>UFC_BD</sourceObjSchema>
+<sourceObjName>PK_ESTADIO</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FAD2C24C-E265-94D0-EFC1-420834254EB9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,293 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E774A554-2B8D-43E6-3E53-856F51690255" schemaObject="19D78E1E-866E-7E19-D1F2-6B0905EB9075" name="TAB_LUTADOR">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>UFC_BD</sourceObjSchema>
+<sourceObjName>TAB_LUTADOR</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_LUTADOR" id="F88F8866-EC41-F45E-7A20-F081FB42E0B2">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>TAB_LUTADOR</sourceObjSchema>
+<sourceObjName>ID_LUTADOR</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementMaxValue>9999999999999999999999999999</autoIncrementMaxValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>seq_lutador</autoIncrementSequenceName>
+<autoIncrementTriggerName>trg_seq_lutador</autoIncrementTriggerName>
+</Column>
+<Column name="NOME_LUTADOR" id="C3C0CBEF-6B86-6953-9A9E-5CD326E6EECF">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>TAB_LUTADOR</sourceObjSchema>
+<sourceObjName>NOME_LUTADOR</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUM_VITORIAS_LUTADOR" id="CCCF6673-7917-35D4-09E9-3C09909352C6">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>TAB_LUTADOR</sourceObjSchema>
+<sourceObjName>NUM_VITORIAS_LUTADOR</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUM_DERROTAS_LUTADOR" id="4D8F5856-345F-8493-66B8-11689C61AB16">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>TAB_LUTADOR</sourceObjSchema>
+<sourceObjName>NUM_DERROTAS_LUTADOR</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELIDO_LUTADOR" id="3CF07974-86C1-9E11-E05B-68D4E0BBD6E4">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>TAB_LUTADOR</sourceObjSchema>
+<sourceObjName>APELIDO_LUTADOR</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEXO_LUTADOR" id="35888BB4-50D3-3911-4D19-300CABA09BA8">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>TAB_LUTADOR</sourceObjSchema>
+<sourceObjName>SEXO_LUTADOR</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<constraintName>CK_SEXO_LUTADOR</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;F&apos;" description=""/>
+<valueDef value="&apos;M&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DTA_NASCIMENTO_LUTADOR" id="651813CA-7EE8-E5F1-B365-3458157B13AA">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>TAB_LUTADOR</sourceObjSchema>
+<sourceObjName>DTA_NASCIMENTO_LUTADOR</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAIS_NACIONALIDADE" id="DDC2C75E-8474-DF10-AFA6-032C47F192F4">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>TAB_LUTADOR</sourceObjSchema>
+<sourceObjName>PAIS_NACIONALIDADE</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CATEGORIA_LUTADOR" id="4FED9B37-937C-BEB7-DFE8-DF528ED267FF">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>TAB_LUTADOR</sourceObjSchema>
+<sourceObjName>CATEGORIA_LUTADOR</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<constraintName>CK_CATEGORIA_LUTADOR</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;PESO GALO FEMININO&apos;" description=""/>
+<valueDef value="&apos;PESO GALO&apos;" description=""/>
+<valueDef value="&apos;PESO LEVE&apos;" description=""/>
+<valueDef value="&apos;PESO MEDIO&apos;" description=""/>
+<valueDef value="&apos;PESO MEIO MEDIO&apos;" description=""/>
+<valueDef value="&apos;PESO MEIO PESADO&apos;" description=""/>
+<valueDef value="&apos;PESO MOSCA FEMININO&apos;" description=""/>
+<valueDef value="&apos;PESO MOSCA&apos;" description=""/>
+<valueDef value="&apos;PESO PALHA FEMININO&apos;" description=""/>
+<valueDef value="&apos;PESO PENA FEMINO&apos;" description=""/>
+<valueDef value="&apos;PESO PENA&apos;" description=""/>
+<valueDef value="&apos;PESO PESADO&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RANK_LUTADOR" id="AC5247F4-1213-2A88-EEC4-A2B104D86266">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>TAB_LUTADOR</sourceObjSchema>
+<sourceObjName>RANK_LUTADOR</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<constraintName>CK_RANK_LUTADOR</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;C&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>&apos;1&apos;</beginValue>
+<endValue>&apos;15&apos;</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="ALTURA_LUTADOR" id="4E36084E-44F1-D9A3-DD71-AA5BBB073C0C">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>TAB_LUTADOR</sourceObjSchema>
+<sourceObjName>ALTURA_LUTADOR</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,1,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENVERGADURA_LUTADOR" id="792D4359-9865-635E-51AB-71FD39DF19DC">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>TAB_LUTADOR</sourceObjSchema>
+<sourceObjName>ENVERGADURA_LUTADOR</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,2,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTILO_LUTADOR" id="A721A779-B3B3-B13A-BA37-8FB1265C37E2">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>TAB_LUTADOR</sourceObjSchema>
+<sourceObjName>ESTILO_LUTADOR</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<constraintName>CK_ESTILO_LUTADOR</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;BOXER&apos;" description=""/>
+<valueDef value="&apos;BRAZILIAN JIU-JITSU&apos;" description=""/>
+<valueDef value="&apos;GRAPPLER&apos;" description=""/>
+<valueDef value="&apos;KARATEKA&apos;" description=""/>
+<valueDef value="&apos;KICKBOXER&apos;" description=""/>
+<valueDef value="&apos;MMA HYBRID&apos;" description=""/>
+<valueDef value="&apos;MUAY THAI&apos;" description=""/>
+<valueDef value="&apos;SAMBO&apos;" description=""/>
+<valueDef value="&apos;STRIKER&apos;" description=""/>
+<valueDef value="&apos;WRESTLER&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIME_LUTADOR" id="3C484FFD-54A0-85AD-38DE-06F7FE8A7851">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>TAB_LUTADOR</sourceObjSchema>
+<sourceObjName>TIME_LUTADOR</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EEA26263-0AAC-4F20-6A42-C561F18337B2" name="PK_LUTADOR">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>UFC_BD</sourceObjSchema>
+<sourceObjName>PK_LUTADOR</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F88F8866-EC41-F45E-7A20-F081FB42E0B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="156672D7-AD2A-D082-83AF-FDDEB05CD9BF" schemaObject="19D78E1E-866E-7E19-D1F2-6B0905EB9075" name="PK_LUTADOR">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>UFC_BD</sourceObjSchema>
+<sourceObjName>PK_LUTADOR</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F88F8866-EC41-F45E-7A20-F081FB42E0B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

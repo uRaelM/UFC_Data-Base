@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FD38AC09-1172-DAAD-A843-14DC1B4C7F92" containerWithKeyObject="D8F757C0-2FCA-C3DA-9A76-9EFD22041A81" localFKIndex="8B99A703-56EE-D143-0A8E-162047025869" name="FK_OPONENTE_LUTADOR_RESULTADO">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>UFC_BD</sourceObjSchema>
+<sourceObjName>FK_OPONENTE_LUTADOR_RESULTADO</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:21 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<referredTableLongName>UFC_BD.TAB_LUTADOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E774A554-2B8D-43E6-3E53-856F51690255</referredTableID>
+<keyObject>EEA26263-0AAC-4F20-6A42-C561F18337B2</keyObject>
+<referredKeyID>EEA26263-0AAC-4F20-6A42-C561F18337B2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_LUTADOR</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

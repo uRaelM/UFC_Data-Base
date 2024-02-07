@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<RoleOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.RoleOraclev10g" name="RO_CRUD_VENDAS" directorySegmentName="seg_0" id="910C5F5F-9F78-4B27-2629-A01D3BDF88C9">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjName>RO_CRUD_VENDAS</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+</RoleOraclev10g>

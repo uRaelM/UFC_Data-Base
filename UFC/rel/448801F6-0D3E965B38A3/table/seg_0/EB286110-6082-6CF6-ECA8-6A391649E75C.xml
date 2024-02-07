@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EB286110-6082-6CF6-ECA8-6A391649E75C" schemaObject="19D78E1E-866E-7E19-D1F2-6B0905EB9075" name="TAB_JUIZ">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>UFC_BD</sourceObjSchema>
+<sourceObjName>TAB_JUIZ</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_JUIZ" id="3ADB4465-28B7-021E-C3B1-30A19B936E6F">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>TAB_JUIZ</sourceObjSchema>
+<sourceObjName>ID_JUIZ</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementMaxValue>9999999999999999999999999999</autoIncrementMaxValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>seq_juiz</autoIncrementSequenceName>
+<autoIncrementTriggerName>trg_seq_juiz</autoIncrementTriggerName>
+</Column>
+<Column name="NOME_JUIZ" id="A77E9EC1-2795-CFBD-1177-F97BC503FDC0">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>TAB_JUIZ</sourceObjSchema>
+<sourceObjName>NOME_JUIZ</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_AFILIACAO_NARRADOR" id="3427218B-159D-8909-718C-0E7CDCEAAE1B">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjSchema>TAB_JUIZ</sourceObjSchema>
+<sourceObjName>DATA_AFILIACAO_NARRADOR</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CE06B719-1B84-0DA5-DEE6-3C9E3C6D96D1" name="TAB_JUIZ_PK">
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:32:19 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3ADB4465-28B7-021E-C3B1-30A19B936E6F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D02447F4-A21B-F95C-6D69-4C60006F9FBC" name="PK_JUIZ">
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:32:46 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3ADB4465-28B7-021E-C3B1-30A19B936E6F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

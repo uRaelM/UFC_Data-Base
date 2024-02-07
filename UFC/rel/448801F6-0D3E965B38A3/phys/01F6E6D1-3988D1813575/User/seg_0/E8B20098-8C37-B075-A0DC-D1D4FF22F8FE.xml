@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="USUARIO_001" directorySegmentName="seg_0" id="E8B20098-8C37-B075-A0DC-D1D4FF22F8FE">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjName>USUARIO_001</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<schemaObject>731A4764-F3E7-475A-415D-570356BEE154</schemaObject>
+<profile>PRO_USUARIO</profile>
+<roles>CFF70ECC-AC54-B887-B570-B49EBF0F0A4B</roles>
+</UserOraclev10g>

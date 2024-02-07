@@ -1,0 +1,30 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableSpaceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableSpaceOraclev10g" name="TBS_UFC" directorySegmentName="seg_0" id="B0EC3E9A-E46B-4C3D-8115-BCEB68C49CA9">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjName>TBS_UFC</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<dsInitialExtent>65536</dsInitialExtent>
+<dsMaxExtents>2147483645</dsMaxExtents>
+<emUniformSize>0</emUniformSize>
+<extentManagement>LOCAL</extentManagement>
+<minExtLen>65536</minExtLen>
+<dsCompression>NOCOMPRESS</dsCompression>
+<encrypt>NO</encrypt>
+<fileType>SMALLFILE</fileType>
+<inMemory>NO</inMemory>
+<dataFiles>
+<DataFile class="oracle.dbtools.crest.model.design.storage.oracle.v10g.DataFileOraclev10g" name="DATAFILE_UFC" id="27303464-7A92-D2E7-1002-B72E2EDA1391">
+<sourceConnName>UFC</sourceConnName>
+<sourceObjName>C:\APP\RAFAEL\PRODUCT\21C\DBHOMEXE\DATABASE\DATAFILE_UFC</sourceObjName>
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:26:20 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<autoextend>ON</autoextend>
+<fileName>C:\APP\RAFAEL\PRODUCT\21C\DBHOMEXE\DATABASE\DATAFILE_UFC</fileName>
+<nextBlockSize>1024</nextBlockSize>
+<size>1024</size>
+</DataFile>
+</dataFiles>
+</TableSpaceOraclev10g>
