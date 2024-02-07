@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="UFC_BD" id="F6A871B7-C356-09AC-0B76-8317B2627572" version="3.5">
+<createdBy>Rafael</createdBy>
+<createdTime>2023-10-12 19:25:04 UTC</createdTime>
+<ownerDesignName>UFC_BD</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>F6A871B7-C356-09AC-0B76-8317B2627572</designId>
+</OSDM_Design>
